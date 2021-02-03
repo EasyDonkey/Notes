@@ -30,7 +30,7 @@
 
 ### Search the Manual Pages
 `$ man -k <keyword> | grep <section number> | grep <additional keyword>`
-- grep for the <section number> is optional
+- grep for the `<section number>` is optional
 
 ### Update Man Pages
 `$ sudo mandb`
