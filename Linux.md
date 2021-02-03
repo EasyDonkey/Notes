@@ -1,14 +1,15 @@
 # Overview
+1. General
 
 # General
 
 ## System Information
-$ cat /etc/os-release
+`$ cat /etc/os-release`
 
 ## Manual Pages
 
 ### Manual Page for Manual Pages :-)
-$ man man
+`$ man man`
 
 #### Sections
 | Number | Description |
@@ -24,12 +25,12 @@ $ man man
 | 9 | Kernel routines (non standard) |
 
 ### Usage
-$ man <application>
+`$ man <application>`
 - <application> can also be a sub-part of an application like apt-cache and apt-get for the apt application
 
 ### Search the Manual Pages
-$ man -k <keyword> | grep <section number> | grep <additional keyword>
+`$ man -k <keyword> | grep <section number> | grep <additional keyword>`
 - grep for the <section number> is optional
 
 ### Update Man Pages
-$ sudo mandb
+`$ sudo mandb`
