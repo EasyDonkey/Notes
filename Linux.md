@@ -38,4 +38,4 @@
 # File System
 
 ## Hierarchy
-$ man hier
+`$ man hier`
