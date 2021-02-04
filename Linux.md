@@ -34,3 +34,8 @@
 
 ### Update Man Pages
 `$ sudo mandb`
+
+# File System
+
+## Hierarchy
+$ man hier
