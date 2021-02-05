@@ -44,5 +44,5 @@
 Libraries are stored in /lib.
 
 ### Add non-standard Library
-`$ sudo vim /etc/ld.so.conf`
+`$ sudo vim /etc/ld.so.conf`<br>
 `$ sudo ldconfig -v: Update library cache`
