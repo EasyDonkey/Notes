@@ -40,6 +40,10 @@
 ## Hierarchy
 `$ man hier`
 
+## Dynamic and Static Configurations
+Dynamic configuration (free to be modified by the administrator): /etc/<br>
+Static configuration (should not be touched): /usr/lib/
+
 ## Libraries
 Libraries are stored in /lib.
 
