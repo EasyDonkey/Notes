@@ -36,10 +36,11 @@
 
 ### Search the Manual Pages
 `$ man -k <keyword> | grep <section number> | grep <additional keyword>`
-- grep for the `<section number>` is optional
+- `| grep <section number>` is optional
 
-### Update Man Pages
+### Update Man Pages Database
 `$ sudo mandb`
+- This is usually done automagically when software is installed / removed
 
 # File System
 
