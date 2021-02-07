@@ -1,3 +1,9 @@
+####################################################################################<br>
+<b>This document relates to Debian / Ubuntu and some parts may greatly differ to RedHat, Suse etc..</b><br>
+####################################################################################<br>
+
+
+
 # Overview
 1. General
 
