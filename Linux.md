@@ -42,6 +42,12 @@
 `$ sudo mandb`
 - This is usually done automagically when software is installed / removed
 
+## Useful Commands
+| Command | Description |
+| --- | --- |
+| `$ locate --basename <keyword>` | Find an executable by base name |
+| `$ which <keyword>` | Locate a command |
+
 # File System
 
 ## Hierarchy
