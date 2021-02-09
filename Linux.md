@@ -48,6 +48,12 @@
 | `$ locate --basename <keyword>` | Find an executable by base name |
 | `$ which <keyword>` | Locate a command |
 
+### Find
+| Command | Description |
+| --- | --- |
+| `$ find <directory> -name "<keyword>" -type f` | Search files (`-type f`) |
+| `$ find <directory> -size -10M -type f` | Search files smaller than 10MB |
+
 # File System
 
 ## Hierarchy
