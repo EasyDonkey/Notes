@@ -49,10 +49,19 @@
 | `$ which <keyword>` | Locate a command |
 
 ### Find
+Find is very powerful and `$ man find` is definitely worth a read.
 | Command | Description |
 | --- | --- |
 | `$ find <directory> -name "<keyword>" -type f` | Search files (`-type f`) |
 | `$ find <directory> -size -10M -type f` | Search files smaller than 10MB |
+| `$ find / -perm -4000 2>/dev/null` | Search all files with the SUID bit set and send all error messages to /dev/null |
+
+`$ find <directory> -type f -exec grep -l <keyword> {} \; -exec cp {} ~ \; 2>/dev/null`
+  - `find <directory> -type f`: Find all files in `<directory>`
+  - `-exec grep -l <keyword> {} \;`: Execute grep, list all files matching the `<keyword>` regex and store them for further handling
+    - `\;`: Is mandatory at the end of the `-exec` flag
+  - `-exec cp {} ~ \;`: Copy the files from {} in the user's home directory
+  - `2>/dev/null`: Supress all error messages (mostly "Permission denied") by sending them to /dev/null
 
 # File System
 
