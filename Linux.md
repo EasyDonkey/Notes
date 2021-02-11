@@ -68,6 +68,12 @@ Find is very powerful and `$ man find` is definitely worth a read.
 ## Hierarchy
 `$ man hier`
 
+## SSD Health
+
+### fstrim
+`$ sudo fstrim -Av`
+- Check and discard unused blocks (should be done regularly)
+
 ## Dynamic and Static Configurations
 Dynamic configuration (free to be modified by the administrator): /etc/<br>
 Static configuration (should not be touched): /usr/lib/
