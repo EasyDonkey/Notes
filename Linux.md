@@ -74,6 +74,11 @@ Find is very powerful and `$ man find` is definitely worth a read.
 `$ sudo fstrim -Av`
 - Check and discard unused blocks (should be done regularly)
 
+## Archive Handling with tar
+
+### Archiving vs. Compression
+Archiving is taking multiple directories and files and put them into a single file while compression is trying to reduce the file size through algorithms which look for repeating pattern to save space.
+
 ## Dynamic and Static Configurations
 Dynamic configuration (free to be modified by the administrator): /etc/<br>
 Static configuration (should not be touched): /usr/lib/
