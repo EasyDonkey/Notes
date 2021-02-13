@@ -79,6 +79,16 @@ Find is very powerful and `$ man find` is definitely worth a read.
 ### Archiving vs. Compression
 Archiving is taking multiple directories and files and put them into a single file while compression is trying to reduce the file size through algorithms which look for repeating pattern to save space.
 
+### Create and Compress an Archive
+`$ tar -zcvf <name>.tar.gz <directory to archive>`
+  - `-z`: Zip (compress) with gzip
+  - `-c`: Create a new archive
+    - Directories are archived recursively
+  - `-v`: Verbose, meaning one line of output for each file
+    - Should be left out for large archives on a remote machine
+  - `-f`: Name for the archive file (must be the last argument)
+  - `.tar.gz`: Nice way to let others know it is a compressed archive (optional)
+
 ## Dynamic and Static Configurations
 Dynamic configuration (free to be modified by the administrator): /etc/<br>
 Static configuration (should not be touched): /usr/lib/
