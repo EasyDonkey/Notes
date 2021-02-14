@@ -89,6 +89,12 @@ Archiving is taking multiple directories and files and put them into a single fi
   - `-f`: Name for the archive file (must be the last argument)
   - `.tar.gz`: Nice way to let others know it is a compressed archive (optional)
 
+### Extract and Decompress an Archive
+`$ tar -zxvf <file> -C <path/to/extract/to>`
+  - `-z`: Unzip (decompress) with gzip
+  - `-x`: Extract
+  - `-C`: Specify the destination path (optional)
+
 ## Dynamic and Static Configurations
 Dynamic configuration (free to be modified by the administrator): /etc/<br>
 Static configuration (should not be touched): /usr/lib/
