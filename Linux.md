@@ -95,6 +95,10 @@ Archiving is taking multiple directories and files and put them into a single fi
   - `-x`: Extract
   - `-C`: Specify the destination path (optional)
 
+### Take a Look at the Archive
+`$ tar -tvf <file> | less`
+  - `-t`: List the contents of the archive
+
 ## Dynamic and Static Configurations
 Dynamic configuration (free to be modified by the administrator): /etc/<br>
 Static configuration (should not be touched): /usr/lib/
