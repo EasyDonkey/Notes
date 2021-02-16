@@ -99,6 +99,13 @@ Archiving is taking multiple directories and files and put them into a single fi
 `$ tar -tvf <file> | less`
   - `-t`: List the contents of the archive
 
+### Important to Remember
+tar overwrites files while extracting, thus these points should be kept in mind:
+1. When creating an archive always archive it from the corresponding root directory
+    - E.g. 20 files in /foo: Archive the /foo directory and not directly all files inside /foo
+2. To protect against overwriting the `-k` and `--no-overwrite-dir` flags should be used
+3. If in doubt extract an archive into an empty directory
+
 ## Dynamic and Static Configurations
 Dynamic configuration (free to be modified by the administrator): /etc/<br>
 Static configuration (should not be touched): /usr/lib/
