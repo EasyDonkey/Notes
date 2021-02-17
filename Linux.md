@@ -63,6 +63,9 @@ Find is very powerful and `$ man find` is definitely worth a read.
   - `-exec cp {} ~ \;`: Copy the files from {} in the user's home directory
   - `2>/dev/null`: Supress all error messages (mostly "Permission denied") by sending them to /dev/null
 
+## System Wide Environment Variables
+Are stored in `/etc/environment` as key=value pairs.
+
 # File System
 
 ## Hierarchy
