@@ -71,6 +71,9 @@ Are stored in `/etc/environment` as key=value pairs.
 ## Hierarchy
 `$ man hier`
 
+## Disk Space Usage
+`$ df -h`
+
 ## SSD Health
 
 ### fstrim
