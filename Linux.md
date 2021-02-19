@@ -42,6 +42,9 @@
 `$ sudo mandb`
 - This is usually done automagically when software is installed / removed
 
+### Documentation Files
+Programs and packages may have extensive documentation files in `/usr/share/doc` resp. `/usr/share/doc/packages`.
+
 ## Useful Commands
 | Command | Description |
 | --- | --- |
