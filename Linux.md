@@ -129,7 +129,7 @@ Libraries are stored in /lib.
 # Users and Groups
 
 ## UIDs
-0: Superuser (root)
-< 1000: System accounts
->= 1000: Normal user accounts
+0: Superuser (root)<br>
+\< 1000: System account<br>
+\>= 1000: Normal user account<br>
 - The separation is a best practice, what really important is, that a user with UID 0 is a superuser
