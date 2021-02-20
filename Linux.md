@@ -125,3 +125,11 @@ Libraries are stored in /lib.
 ### Add non-standard Library
 `$ sudo vim /etc/ld.so.conf`<br>
 `$ sudo ldconfig -v: Update library cache`
+
+# Users and Groups
+
+## UIDs
+0: Superuser (root)
+< 1000: System accounts
+>= 1000: Normal user accounts
+- The separation is a best practice, what really important is, that a user with UID 0 is a superuser
