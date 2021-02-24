@@ -9,3 +9,12 @@
 | Command | Description |
 | --- | --- |
 | `free -h` | Memory usage |
+
+# Processes
+
+## systemctl
+| Command | Description |
+| --- | --- |
+| `systemctl list-units` | List current loaded units |
+| `systemctl list-dependencies` | List all dependencies |
+| `systemctl isolate <target>.target` | Replace current target |
