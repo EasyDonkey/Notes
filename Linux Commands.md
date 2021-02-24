@@ -19,4 +19,4 @@
 | `systemctl list-jobs` | List current running jobs |
 | `systemctl list-dependencies` | List all dependencies |
 | `systemctl isolate <target>.target` | Replace current target |
-| `systemctl enable debug-shell.service` | Enable a virtual terminal as a logged-in root user on tty9 |
+| `systemctl start debug-shell.service` | Start a virtual terminal as a logged-in root user on tty9 |
