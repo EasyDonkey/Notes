@@ -18,3 +18,4 @@
 | `systemctl list-units` | List current loaded units |
 | `systemctl list-dependencies` | List all dependencies |
 | `systemctl isolate <target>.target` | Replace current target |
+| `systemctl enable debug-shell.service` | Enable a virtual terminal as a logged-in root user on tty9 |
