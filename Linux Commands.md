@@ -15,6 +15,7 @@
 ## Information
 | Command | Description |
 | --- | --- |
+| `cat /proc/partitions` | All SCSI devices (also virtual) |
 | `sudo dmidecode` | BIOS |
 | `hdparm -l </path/to/disk>` | Disks |
 | `lscpu` | CPU |
