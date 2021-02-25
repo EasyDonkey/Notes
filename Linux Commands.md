@@ -10,6 +10,18 @@
 | --- | --- |
 | `free -h` | Memory usage |
 
+# Hardware
+
+## Information
+| Command | Description |
+| --- | --- |
+| `sudo dmidecode` | BIOS |
+| `hdparm -l </path/to/disk>` | Disks |
+| `lscpu` | CPU |
+| `lspci` | PCI devices |
+| `lsscsi -v` | SCSI devices |
+| `lsusb` | USB devices |
+
 # Processes
 
 ## systemctl
