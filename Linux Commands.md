@@ -17,7 +17,7 @@
 | --- | --- |
 | `cat /proc/partitions` | All SCSI devices (also virtual) |
 | `sudo dmidecode` | BIOS |
-| `hdparm -l </path/to/disk>` | Disks |
+| `hdparm -I </path/to/disk>` | Disks |
 | `lscpu` | CPU |
 | `lspci` | PCI devices |
 | `lsscsi -v` | SCSI devices |
