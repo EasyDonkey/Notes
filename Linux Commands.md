@@ -1,5 +1,11 @@
 # General
 
+## Controls
+| Command | Description |
+| --- | --- |
+| `shutdown 0` | Shutdown now |
+| `shutdown -r 0` \| `reboot` | Reboot now |
+
 ## Miscellaneous
 | Command | Description |
 | --- | --- |
