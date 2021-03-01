@@ -34,8 +34,15 @@
 ## systemctl
 | Command | Description |
 | --- | --- |
-| `systemctl list-units` | List current loaded units |
-| `systemctl list-jobs` | List current running jobs |
-| `systemctl list-dependencies` | List all dependencies |
+| `systemctl list-units` | Current loaded units |
+| `systemctl list-jobs` | Current running jobs |
+| `systemctl list-dependencies` | All dependencies |
 | `systemctl isolate <target>.target` | Replace current target |
 | `systemctl start debug-shell.service` | Start a virtual terminal as a logged-in root user on tty9 |
+
+# Users and Groups
+
+## Logging
+| Command | Description |
+| --- | --- |
+| `last` | Login history |
