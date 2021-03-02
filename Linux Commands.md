@@ -34,8 +34,13 @@
 ## systemctl
 | Command | Description |
 | --- | --- |
-| `systemctl list-units` | Current loaded units |
-| `systemctl list-jobs` | Current running jobs |
+| `systemctl list-units` | Active and available units in memory |
+| `systemctl list-units --all` | All units in memory |
+| `systemctl list-units --type <type> --state <state>` | Units in memory of type service, socket or target with state active, disabled, enabled, failed or running 
+| `systemctl list-units --all --type=mount` | All mounts |
+| `systemctl list-units-files` | Installed units |
+| `systemctl list-units-files --type <type> --state <state>` | Installed units of type service, socket or target with state active, disabled, enabled, failed or running |
+| `systemctl list-jobs` | Running jobs |
 | `systemctl list-dependencies` | All dependencies |
 | `systemctl isolate <target>.target` | Replace current target |
 | `systemctl start debug-shell.service` | Start a virtual terminal as a logged-in root user on tty9 |
