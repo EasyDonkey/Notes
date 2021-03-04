@@ -52,3 +52,5 @@
 | --- | --- |
 | `last` | Login history |
 | `w` | Currently logged in users |
+
+## Management
