@@ -54,3 +54,6 @@
 | `w` | Currently logged in users |
 
 ## Management
+| Command | Description |
+| --- | --- |
+| `sudo passwd <user>` | Change Password |
