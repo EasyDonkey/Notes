@@ -137,3 +137,12 @@ Libraries are stored in /lib.
 ## Modify passwd
 `$ sudo vipwd`
 - Never modify /etc/passwd directly
+
+## Permissions
+
+### Octal Mode
+| r | w | x | Description |
+| --- | --- | --- | --- |
+| 0 | 0 | 0 | Value off |
+| 1 | 1 | 1 | Binary value on |
+| 4 | 2 | 1 | Decimal value on |
