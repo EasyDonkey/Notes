@@ -7,6 +7,10 @@
 | `shutdown -r 0` \| `reboot` | Reboot now |
 
 ## Miscellaneous
+| Linux Command | Windows Command | Description |
+| --- | --- | --- |
+| `<command> --help` | `<command> /?` | Help menu |
+
 | Command | Description |
 | --- | --- |
 | `date -d @<Unix epoc timestamp>` | Print date format from Unix epoc timestamp (seconds till 01.01.1970) |
